@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>jploot</groupId>
+		<artifactId>dependencies</artifactId>
+		<version>0.1</version>
+		<relativePath>../</relativePath>
+	</parent>
+
+	<artifactId>dependency-immutables</artifactId>
+	<packaging>pom</packaging>
+
+	<name>dependency-immutables</name>
+
+	<properties>
+		<immutables.version>2.8.2</immutables.version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.immutables</groupId>
+				<artifactId>value</artifactId>
+				<version>${immutables.version}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.google.code.findbugs</groupId>
+				<artifactId>jsr305</artifactId>
+				<version>3.0.2</version>
+			</dependency>
+			<dependency>
+				<groupId>com.google.errorprone</groupId>
+				<artifactId>error_prone_annotations</artifactId>
+				<version>2.3.4</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+</project>
