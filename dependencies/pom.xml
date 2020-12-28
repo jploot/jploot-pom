@@ -23,6 +23,7 @@
 		<module>dependency-picocli</module>
 		<module>dependency-yaml</module>
 		<module>dependency-immutables</module>
+		<module>dependency-maven-plugin</module>
 		
 		<module>log4j2-config-test</module>
 	</modules>
