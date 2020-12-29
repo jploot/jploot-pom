@@ -19,11 +19,12 @@
 
 	<properties>
 		<!-- Common properties -->
-		<jploot.githubusercontentUrl>https://raw.githubusercontent.com/lalmeras/jploot</jploot.githubusercontentUrl>
-		<jploot.githubUrl>https://github.com/lalmeras/jploot</jploot.githubUrl>
+		<jploot.githubusercontentUrl>https://raw.githubusercontent.com/jploot/jploot</jploot.githubusercontentUrl>
+		<jploot.githubUrl>https://github.com/jploot/jploot</jploot.githubUrl>
 		
 		<!-- version properties -->
-		<jploot.pom.version>0.1-SNAPSHOT</jploot.pom.version>
+		<gitflow.versionProperty>jploot.pom.version</gitflow.versionProperty>
+		<jploot.pom.version>0.1.1-SNAPSHOT</jploot.pom.version>
 		
 		<!-- Compilation properties -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -170,7 +171,9 @@
 					<artifactId>gitflow-maven-plugin</artifactId>
 					<version>${plugin.jgitflow.version}</version>
 					<configuration>
+						<useSnapshotInHotfix>true</useSnapshotInHotfix>
 						<useSnapshotInRelease>true</useSnapshotInRelease>
+						<versionProperty>${gitflow.versionProperty}</versionProperty>
 						<gitFlowConfig>
 							<productionBranch>master</productionBranch>
 							<developmentBranch>dev</developmentBranch>
