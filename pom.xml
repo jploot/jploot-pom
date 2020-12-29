@@ -23,6 +23,7 @@
 		<jploot.githubUrl>https://github.com/jploot/jploot</jploot.githubUrl>
 		
 		<!-- version properties -->
+		<gitflow.versionProperty>jploot.pom.version</gitflow.versionProperty>
 		<jploot.pom.version>0.1.1</jploot.pom.version>
 		
 		<!-- Compilation properties -->
@@ -170,7 +171,9 @@
 					<artifactId>gitflow-maven-plugin</artifactId>
 					<version>${plugin.jgitflow.version}</version>
 					<configuration>
+						<useSnapshotInHotfix>true</useSnapshotInHotfix>
 						<useSnapshotInRelease>true</useSnapshotInRelease>
+						<versionProperty>${gitflow.versionProperty}</versionProperty>
 						<gitFlowConfig>
 							<productionBranch>master</productionBranch>
 							<developmentBranch>dev</developmentBranch>
