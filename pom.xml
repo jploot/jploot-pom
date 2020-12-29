@@ -19,8 +19,8 @@
 
 	<properties>
 		<!-- Common properties -->
-		<jploot.githubusercontentUrl>https://raw.githubusercontent.com/lalmeras/jploot</jploot.githubusercontentUrl>
-		<jploot.githubUrl>https://github.com/lalmeras/jploot</jploot.githubUrl>
+		<jploot.githubusercontentUrl>https://raw.githubusercontent.com/jploot/jploot</jploot.githubusercontentUrl>
+		<jploot.githubUrl>https://github.com/jploot/jploot</jploot.githubUrl>
 		
 		<!-- version properties -->
 		<jploot.pom.version>0.1-SNAPSHOT</jploot.pom.version>
