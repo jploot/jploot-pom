@@ -52,7 +52,7 @@
 
 		<plugin.processor.version>4.4</plugin.processor.version>
 		
-		<plugin.jgitflow.version>1.15.0</plugin.jgitflow.version>
+		<plugin.jgitflow.version>1.14.0</plugin.jgitflow.version>
 	</properties>
 
 	<build>
@@ -274,7 +274,7 @@
 				<repository>
 					<id>jploot</id>
 					<name>jploot</name>
-					<url>https://api.bintray.com/maven/jploot/jploot/jploot/;publish=1</url>
+					<url>https://nexus.tools.kobalt.fr/repository/jploot/</url>
 				</repository>
 			</distributionManagement>
 		</profile>
@@ -296,7 +296,7 @@
 					<snapshots>
 						<enabled>false</enabled>
 					</snapshots>
-					<url>https://dl.bintray.com/jploot/jploot</url>
+					<url>https://nexus.tools.kobalt.fr/repository/jploot/</url>
 				</repository>
 			</repositories>
 			<pluginRepositories>
@@ -309,7 +309,7 @@
 					<snapshots>
 						<enabled>false</enabled>
 					</snapshots>
-					<url>https://dl.bintray.com/jploot/jploot</url>
+					<url>https://nexus.tools.kobalt.fr/repository/jploot/</url>
 				</pluginRepository>
 			</pluginRepositories>
 		</profile>
