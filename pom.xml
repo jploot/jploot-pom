@@ -52,7 +52,7 @@
 
 		<plugin.processor.version>4.4</plugin.processor.version>
 		
-		<plugin.jgitflow.version>1.14.0</plugin.jgitflow.version>
+		<plugin.jgitflow.version>1.15.1-jploot</plugin.jgitflow.version>
 	</properties>
 
 	<build>
