@@ -24,7 +24,7 @@
 			<dependency>
 				<groupId>jploot</groupId>
 				<artifactId>dependency-logging</artifactId>
-				<version>${project.version}</version>
+				<version>${jploot.pom.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>

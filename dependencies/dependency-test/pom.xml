@@ -36,7 +36,7 @@
 			<dependency>
 				<groupId>jploot</groupId>
 				<artifactId>log4j2-config-test</artifactId>
-				<version>${project.version}</version>
+				<version>${jploot.pom.version}</version>
 				<scope>test</scope>
 			</dependency>
 			<dependency>
