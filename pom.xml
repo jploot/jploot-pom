@@ -5,7 +5,7 @@
 
 	<groupId>jploot</groupId>
 	<artifactId>jploot-pom</artifactId>
-	<version>0.1.4</version>
+	<version>0.1.5</version>
 	<packaging>pom</packaging>
 
 	<name>jploot-parent</name>
@@ -24,7 +24,7 @@
 		
 		<!-- version properties -->
 		<gitflow.versionProperty>jploot.pom.version</gitflow.versionProperty>
-		<jploot.pom.version>0.1.4</jploot.pom.version>
+		<jploot.pom.version>0.1.5</jploot.pom.version>
 		
 		<!-- Compilation properties -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -286,35 +286,20 @@
 					<exists>pom.xml</exists>
 				</file>
 			</activation>
-			<repositories>
-				<repository>
-					<id>jploot</id>
-					<layout>default</layout>
-					<releases>
-						<enabled>true</enabled>
-					</releases>
-					<snapshots>
-						<enabled>false</enabled>
-					</snapshots>
-					<url>https://nexus.tools.kobalt.fr/repository/jploot/</url>
-				</repository>
-			</repositories>
-			<pluginRepositories>
-				<pluginRepository>
-					<id>jploot</id>
-					<layout>default</layout>
-					<releases>
-						<enabled>true</enabled>
-					</releases>
-					<snapshots>
-						<enabled>false</enabled>
-					</snapshots>
-					<url>https://nexus.tools.kobalt.fr/repository/jploot/</url>
-				</pluginRepository>
-			</pluginRepositories>
 		</profile>
 	</profiles>
 	<repositories>
+		<repository>
+			<id>jploot</id>
+			<layout>default</layout>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<url>https://nexus.tools.kobalt.fr/repository/jploot/</url>
+		</repository>
 		<!-- Currently broken, we use jploot repository -->
 <!-- 		<repository> -->
 <!-- 			<id>mikroskeem-repo</id> -->
@@ -328,4 +313,17 @@
 <!-- 			</snapshots> -->
 <!-- 		</repository> -->
 	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>jploot</id>
+			<layout>default</layout>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<url>https://nexus.tools.kobalt.fr/repository/jploot/</url>
+		</pluginRepository>
+	</pluginRepositories>
 </project>
