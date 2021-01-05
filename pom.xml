@@ -5,7 +5,7 @@
 
 	<groupId>jploot</groupId>
 	<artifactId>jploot-pom</artifactId>
-	<version>0.1.4</version>
+	<version>0.1.5-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>jploot-parent</name>
@@ -24,7 +24,7 @@
 		
 		<!-- version properties -->
 		<gitflow.versionProperty>jploot.pom.version</gitflow.versionProperty>
-		<jploot.pom.version>0.1.4</jploot.pom.version>
+		<jploot.pom.version>0.1.5-SNAPSHOT</jploot.pom.version>
 		
 		<!-- Compilation properties -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
