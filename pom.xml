@@ -286,35 +286,20 @@
 					<exists>pom.xml</exists>
 				</file>
 			</activation>
-			<repositories>
-				<repository>
-					<id>jploot</id>
-					<layout>default</layout>
-					<releases>
-						<enabled>true</enabled>
-					</releases>
-					<snapshots>
-						<enabled>false</enabled>
-					</snapshots>
-					<url>https://nexus.tools.kobalt.fr/repository/jploot/</url>
-				</repository>
-			</repositories>
-			<pluginRepositories>
-				<pluginRepository>
-					<id>jploot</id>
-					<layout>default</layout>
-					<releases>
-						<enabled>true</enabled>
-					</releases>
-					<snapshots>
-						<enabled>false</enabled>
-					</snapshots>
-					<url>https://nexus.tools.kobalt.fr/repository/jploot/</url>
-				</pluginRepository>
-			</pluginRepositories>
 		</profile>
 	</profiles>
 	<repositories>
+		<repository>
+			<id>jploot</id>
+			<layout>default</layout>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<url>https://nexus.tools.kobalt.fr/repository/jploot/</url>
+		</repository>
 		<!-- Currently broken, we use jploot repository -->
 <!-- 		<repository> -->
 <!-- 			<id>mikroskeem-repo</id> -->
@@ -328,4 +313,17 @@
 <!-- 			</snapshots> -->
 <!-- 		</repository> -->
 	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>jploot</id>
+			<layout>default</layout>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<url>https://nexus.tools.kobalt.fr/repository/jploot/</url>
+		</pluginRepository>
+	</pluginRepositories>
 </project>
